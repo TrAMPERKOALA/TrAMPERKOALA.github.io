@@ -67,7 +67,7 @@ header .navbar {
 }
 
 .navbar-inverse {
-	background: rgba(0, 0, 0, 0.65) !important;
+	background: #9400d3;
 }
 
 #myNavbar ul li {
@@ -76,7 +76,7 @@ header .navbar {
 }
 
 #myNavbar ul li.active a {
-	color: #EB0000;
+	color: #9400d3;
 }
 
 #myNavbar ul li.active > a::after {
@@ -84,7 +84,7 @@ header .navbar {
 	position: absolute;
 	width: 100%;
 	left: 0;
-	border-bottom: 2px solid #EB0000;
+	border-bottom: 2px solid #9400d3;
 	bottom: 0;
 	transition: all 0.2s;
 }
@@ -94,8 +94,8 @@ header .navbar {
 }
 
 .navbar-inverse #myNavbar li:hover a::after, #myNavbar ul li a:hover {
-	border-bottom: 2px solid #EB0000;
-	color: #EB0000;
+	border-bottom: 2px solid #9400d3;
+	color: #9400d3;
 }
 
 #myNavbar ul li a {
@@ -116,13 +116,13 @@ header .navbar {
 /************ Home css ************/
 
 #home {
-	background: url(img/home-bg.jpg) no-repeat center center;
+	background: url(img/ag.jpg) no-repeat center center;
 	background-size: cover;
 	position: relative;
 	justify-content: center;
 	flex-direction: column;
 	display: flex;
-	height: 700px;
+	height: 900px;
 }
 
 .home-text {
@@ -145,13 +145,13 @@ header .navbar {
 }
 
 .home-text span {
-	color: #f20101;
+	color: #9400d3;
 	font-weight: 700;
 }
 
 .overlay {
 	position: absolute;
-	background: rgba(242, 0, 0, .55);
+	background: rgba(14, 0, 0, .55);
 	top: 0;
 	left: 0;
 	right: 0;
@@ -178,18 +178,18 @@ header .navbar {
 }
 
 .section-heading span {
-	color: #f20101;
+	color: #9400d3;
 }
 
 .single-item {
-	border: 2px solid #f20101;
+	border: 2px solid #9400d3;
 	margin-top: 50px;
 	transition: all 0.6s;
 }
 
 .single-item i {
 	font-size: 80px;
-	color: #f20101;
+	color: #9400d3;
 	padding: 15px;
 
 }
@@ -206,7 +206,7 @@ header .navbar {
 .single-item a.btn-red {
 	margin-bottom: 20px;
 	padding: 6px 10px;
-	background-color: #f20101;
+	background-color: #9400d3;
 	border-radius: 0;
 	font-weight: 700;
 	color: #fff;
@@ -241,72 +241,6 @@ header .navbar {
 	padding: 10px 0 5px;
 }
 
-.single-team p::after {
-	content: '';
-	position: absolute;
-	height: 0;
-	width: 0;
-
-	border-right: 12px solid transparent;
-	border-top: 12px solid #f20101;
-	border-left: 12px solid transparent;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.member-social-icon i {
-	padding: 20px 7px;
-	color: #f20101;
-	font-size: 20px;
-	text-align: center;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-
-}
-
-.member-social-icon {
-	border-bottom: 0 solid #fff;
-	margin-top: 30px;
-	opacity: 0;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.member-social-icon i:hover {
-	color: #fff;
-}
-
-.single-team:hover .member-social-icon {
-	margin: 0;
-	border-bottom: 7px solid #fff;
-	opacity: 1;
-}
-
-.single-team:hover p {
-
-	border-bottom: 0 solid #f20101;
-
-}
-
-.single-team:hover p::after {
-	opacity: 0;
-	bottom: 150px;
-}
-
-.single-team p {
-	font-size: 18px;
-	border-bottom: 7px solid #f20101;
-	overflow: hidden;
-}
-
 /********** skill area ********/
 .skill-heading h3 {
 	font-size: 36px;
@@ -324,7 +258,7 @@ header .navbar {
 
 .bar .progress {
 	height: 12px;
-	background-color: #f20101;
+	background-color: #9400d3;
 }
 
 .bar .progress-bar {
@@ -335,170 +269,10 @@ header .navbar {
 	margin: -3px;
 }
 
-/************* Gallery css***********/
-#gallery {
-	padding: 70px 0;
-	background: #000;
 
-}
 
-.gallery-btn {
-	margin-bottom: 30px;
-}
 
-.section-heading p {
-	padding: 30px 0;
-	font-size: 14px;
-	color: #fff;
-	line-height: 24px;
-	text-transform: capitalize;
-}
 
-.btn-trans {
-	width: 180px;
-	border: 1px solid #f20101;
-	height: 50px;
-	line-height: 38px;
-	color: #fff;
-	border-radius: 0;
-	font-size: 14px;
-	margin: 5px 10px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-a.btn.btn-trans:hover {
-	color: #fff;
-	background: red;
-}
-
-/********* isotop ********/
-.single-gl {
-	width: 100%;
-}
-
-.no-gutter [class*='col-'] {
-	padding-right: 0;
-	padding-left: 0;
-}
-
-.gl-overlay {
-	position: absolute;
-	background: rgba(242, 0, 0, .6);
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	opacity: 0;
-	-webkit-transition: all .6s;
-	-moz-transition: all .6s;
-	-ms-transition: all .6s;
-	-o-transition: all .6s;
-	transition: all .6s;
-}
-
-.gl-overlay i {
-	color: #fff;
-	padding: 5px;
-	background: #000;
-	margin-bottom: 30px;
-	-webkit-transition: all .7s;
-	-moz-transition: all .7s;
-	-ms-transition: all .7s;
-	-o-transition: all .7s;
-	transition: all .7s;
-
-}
-
-.gl-overlay:hover i {
-	margin-bottom: 0;
-}
-
-.gl-overlay i:hover {
-	background: #EB0000;
-}
-
-.gl-overlay:hover {
-	opacity: 1;
-}
-
-/********* price area *******/
-#price {
-	padding: 80px 0;
-	color: #fff;
-	background-color: #000000;
-
-}
-
-.single-price:hover .price-top {
-	background-color: #333333;
-}
-
-.single-price {
-	margin-top: 50px;
-}
-
-.price-top {
-	background-color: #F20101;
-	padding: 25px 0;
-	transition: all 0.3s;
-}
-
-.price-top h3 {
-	font-size: 24px;
-	font-weight: normal;
-}
-
-sub, sup {
-	font-size: 20px;
-}
-
-h1 sup {
-	top: -1.5em;
-}
-
-.price-top i {
-	font-size: 50px;
-	padding: 10px 0;
-}
-
-.price-top h1 {
-	font-size: 65px;
-}
-
-.price-bottom {
-	color: #000;
-	background-color: #E8E4E4;
-	padding: 30px 0;
-
-}
-
-.price-bottom p {
-	line-height: 24px;
-	padding: 10px;
-}
-
-.price-bottom a {
-	width: 230px;
-	color: #fff;
-	background: #000;
-	font-size: 16px;
-	border-radius: 0;
-	line-height: 45px;
-	font-weight: bold;
-	margin-top: 20px;
-
-}
-
-.price-bottom a:hover {
-	background: #EB0000;
-	color: #fff;
-}
 /************* our contact area *********/
 #contact {
 	padding: 70px 0 0;
@@ -508,32 +282,6 @@ h1 sup {
 
 .contact-heading {
 	padding: 20px 0;
-}
-
-#map {
-	height: 300px;
-	width: 100%;
-
-}
-
-#map-overlay {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	color: #fff;
-	background: rgba(220, 1, 1, .5);
-	justify-content: center;
-	flex-direction: column;
-	display: flex;
-
-}
-
-#map-overlay h2 {
-	padding: 0 35px 0;
 }
 
 /******** contact form *******/
@@ -568,7 +316,7 @@ label {
 	line-height: 40px;
 	width: 250px;
 	border-radius: 0;
-	background: #EB0000;
+	background: #9400d3;
 	font-size: 16px;
 }
 
@@ -579,7 +327,7 @@ label {
 /******* footer css********/
 footer {
 	padding: 25px 0 20px;
-	background-color: #EB0000;
+	background-color: #9400d3;
 	color: #FFF;
 }
 

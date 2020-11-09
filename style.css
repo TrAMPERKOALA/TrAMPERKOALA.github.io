@@ -113,6 +113,7 @@ header .navbar {
 	flex-direction: column;
 	display: flex;
 	height: 100%;
+    color: #fff;
 }
 /*начало*/
 

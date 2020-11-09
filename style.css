@@ -105,7 +105,15 @@ header .navbar-brand {
 header .navbar {
 	margin-bottom: 0;
 }
-
+#button {
+	background: url(img/ag.jpg) no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+	height: 100%;
+}
 /*начало*/
 
 #home {
